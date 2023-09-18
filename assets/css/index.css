@@ -1,0 +1,139 @@
+/* *{
+    background-image: linear-gradient(#071927, #0290cc );
+    background-repeat: no-repeat;
+    height: 100%;
+} */
+
+body {
+    background-image: linear-gradient(#071927, #279bcd);
+    /* background-repeat: no-repeat; */
+    height: 100%;
+}
+
+.card-style {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 610px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #081b29;
+    box-shadow: 60px 60px 40px black;
+    ;
+}
+
+.title-name {
+    margin-right: 50%;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+
+}
+
+.titlecolor {
+    color: whitesmoke;
+}
+
+
+a {
+    color: whitesmoke;
+}
+
+.titlecolor:hover {
+    color: #279bcd;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #279bcd;
+    background-color: #071927;
+}
+
+.profilepic {
+    opacity: 0.5;
+    position: absolute;
+    right: 45px;
+    bottom: 25px;
+    transition: transform .4s;
+
+}
+
+.profilepic:hover {
+    transform: scale(1.05)
+}
+
+.myName {
+    color: white;
+    text-align: left;
+    margin-left: 13%;
+    opacity: 0.75;
+}
+
+.resumeButton {
+    color: #279bcd;
+    font-weight: bold;
+    border: 2px solid #279bcd;
+    float: left;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.resumeButton:hover {
+    background-color: #279bcd;
+}
+
+.listDecor {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 45px;
+}
+
+.listDecor li {
+    margin-top: 30px;
+}
+
+.contact-list {
+    display: flex;
+    margin-left: 5%;
+    color: white;
+    margin-top: 10%;
+}
+
+.contact-list li {
+    margin-right: 80px;
+    font-size: 40px;
+
+}
+
+.progressBar {
+    color: white;
+    margin-top: 7%;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.progressBar li {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.latestproject {
+    color: white;
+    text-align: center;
+
+    opacity: 0.75;
+}
+
+.myprojects {
+    display: flex;
+}
